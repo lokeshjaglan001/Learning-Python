@@ -28,6 +28,6 @@ While I'm primarily using this repository for personal learning, I welcome contr
 
 ## 💬 Connect with Me
 
-Let's connect and learn together! If you have any questions, comments, or just want to say hi, you can reach me through [contact information].
+Let's connect and learn together! If you have any questions, comments, or just want to say hi, you can reach me through [lokeshjaglan01@gmail.com](mailto:lokeshjaglan01@gmail.com).
 
 Happy coding! ✨🐍
