@@ -22,7 +22,7 @@ print(f"Data type of {var4} is " ,type(var4))
 
 #Operators
 
-Num1 =345
+Num1 = 345
 Num2 = 667
 Num3 = 773
 Num4 = 243
