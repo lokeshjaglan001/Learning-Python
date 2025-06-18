@@ -1,23 +1,36 @@
-import pandas as pd
+#Variables
 
-df = pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]] , columns=["A","B","C"] , index = ["X","Y","Z"])
+Variable = "Hello this is my basic variable and to make any variable we have to write a name and then give equals to sign (=) next and then you can give value according to you." 
+print(Variable)
 
-print(df.head())#Returns the first n rows of the DataFrame
-print(df.tail())#Returns the last n rows of the DataFrame
-print(df.columns)#Lists all column names
-print(df.dtypes)#Displays data types of each column
-print(df.info())#Displays a summary of the DataFrame, including the number of non-null values and data types
-print(df.describe())#Provides summary statistics for numeric columns
-print(df.shape)#Returns the number of rows and columns in the DataFrame as a tuple
-print(df["A"].unique)
-print(df.isnull())#Returns a DataFrame with True for null values and False otherwise
-print(df.isnull().sum())#Counts the number of null values in each column
+Name = input("Enter your Name : ")
+print(f"Hello {Name}") # Using input data in any print function
 
-Ab = pd.DataFrame({
-'Class 10th':['Pankaj s/o jaydeep','Jagreet s/o Joginder','Yash s/o Balwan','Nitin s/o Manish'],
+# Data Types
 
-'Class 11th':['Aaditya s/o Bijender','Ajay s/o Satish','Lakshay s/o Mahender','Vinay s/o Ashok'],
+var1 = "Hello Sir !" # This is String data type value
+print(f"Data type of {var1} is " ,type(var1))
 
-'Class 12th':['Aman s/o Surrender','Suresh s/o Jaypal','Kunal s/o Lilu ','Humanshu s/o Sunil Jaglan']})
+var2 = 244 # This is Integer data type value
+print(f"Data type of {var2} is " ,type(var2))
 
-print(Ab.head())
+var3 = True # This is Boolean data type value
+print(f"Data type of {var3} is " ,type(var3))
+
+var4 = 7.99 # This is Float data type value
+print(f"Data type of {var4} is " ,type(var4))
+
+#Operators
+
+Num1 = 345
+Num2 = 667
+Num3 = 773
+Num4 = 243
+
+print(f"Addition of {Num1} and {Num2} is ",Num1 + Num2) # Plus operator which do Addition
+
+print(f"Substraction of {Num2} and {Num1} is ",Num2 - Num1) # Minus operator which do Addition
+
+print(f"Multiplication of {Num3} and {Num4} is " , Num3*Num4) # Multiply operator which do Multiplication
+
+print(f"Division of {Num3} with {Num4} is " , Num3/Num4) # Dividing operator which do Division
